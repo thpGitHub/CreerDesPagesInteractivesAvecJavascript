@@ -33,3 +33,5 @@ document.getElementById("langages").insertBefore(perlElt,
 // Ajout d'un élément au tout début de la liste
 document.getElementById('langages').insertAdjacentHTML("afterBegin", 
     '<li id="javascript">JavaScript</li>');
+
+document.getElementById("langages").insertAdjacentHTML("afterend",'<p>En voici une <a href="https://fr.wikipedia.org/wiki/Liste_de_langages_de_programmation">liste</a> détailée !</p>');
