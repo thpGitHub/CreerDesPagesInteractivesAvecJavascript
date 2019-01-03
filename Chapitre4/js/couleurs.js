@@ -8,4 +8,7 @@ for (var i=0; i<divElt.length;i++){
 		divElt[i].style.color=couleurText;
 
 
+
+
+
 }
